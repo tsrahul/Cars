@@ -37,23 +37,3 @@
   }
 }
 
-.section-padding {
-  width: 100%;
-  height: 100vh;
-  padding: 0 0 20px 0;
-}
-@media only screen and (min-width: 767px) {
-  .section-padding {
-    padding: 0 0 40px 0;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .section-padding {
-    padding: 0 0 60px 0;
-  }
-}
-
-.fnt-xxl
-{
-  font-size: 20px;
-}

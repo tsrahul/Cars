@@ -10,7 +10,7 @@ const App = () => (
   <Router history={history}>
     <Suspense fallback={<Loader />}>
       <Switch>
-        <Route exact path="/home" component={HomePage} />
+        <Route exact path="/" component={HomePage} />
       </Switch>
     </Suspense>
   </Router>
