@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import "antd/dist/antd.min.css";
 import history from "./history";
 import Loader from "./Components/Global/Loader";
+import "./styles/main.css";
 
 const HomePage = React.lazy(() => import("./Components/Pages/HomePage"));
 

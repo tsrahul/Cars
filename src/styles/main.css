@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -37,3 +41,10 @@
   }
 }
 
+.slick-slide{
+  /* margin-right: 15px !important; */
+}
+
+.homePageTesti-arrows {
+  @apply absolute rounded-full w-8 -mt-4 h-8 lg:w-16 lg:-mt-8 lg:h-16 items-center justify-center top-1/2 cursor-pointer hover:bg-neutral-900 transition duration-500;
+}

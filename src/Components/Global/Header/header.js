@@ -4,9 +4,9 @@ import carIcon from "../../../assets/car.svg";
 
 const header = () => {
   return (
-    <div className="header_div">
+    <div className="header_div z-50">
       <div>
-        <img src={carIcon} alt="carIcon" height={40} />
+        <img src={carIcon} alt="carIcon" className="h-8" />
       </div>
       <div className="inner_div">
         <a className="active">Home Page</a>
