@@ -71,17 +71,17 @@ export const howITWorksData = [
   {
     heading: "I want to",
     heading2: "setup my",
-    heading3: "business."
+    heading3: "business.",
   },
   {
     heading: "I want to",
     heading2: "grow my",
-    heading3: "business."
+    heading3: "business.",
   },
   {
     heading: "I want to",
     heading2: "expand my",
-    heading3: "community."
+    heading3: "community.",
   },
 ];
 
@@ -199,7 +199,7 @@ export const greatProducts = [
     bg: "rgba(218, 0, 33, 0.05);",
     rating: rating,
     buttonText: "explore more",
-    totalUserText: "50K users already using this."
+    totalUserText: "50K users already using this.",
   },
   {
     heading: "Marketplace - From invoicing to payments.",
@@ -207,7 +207,7 @@ export const greatProducts = [
     bg: "rgba(175, 234, 242, 0.4)",
     rating: rating,
     buttonText: "explore more",
-    totalUserText: "70K users already using this."
+    totalUserText: "70K users already using this.",
   },
   {
     heading: "Open your Finance account at SMESouk",
@@ -215,7 +215,7 @@ export const greatProducts = [
     bg: "rgba(218, 0, 33, 0.05)",
     rating: rating,
     buttonText: "explore more",
-    totalUserText: "60K users already using this."
+    totalUserText: "60K users already using this.",
   },
   {
     heading: "Reliable & quick insurance no hidden fees.",
@@ -223,7 +223,7 @@ export const greatProducts = [
     bg: "rgba(255, 245, 213, 0.4);",
     rating: rating,
     buttonText: "explore more",
-    totalUserText: "90K users already using this."
+    totalUserText: "90K users already using this.",
   },
   {
     heading: "Your end-to-end Business Mgnt solution.",
@@ -231,7 +231,7 @@ export const greatProducts = [
     bg: "rgba(175, 234, 242, 0.4)",
     rating: rating,
     buttonText: "explore more",
-    totalUserText: "30K users already using this."
+    totalUserText: "30K users already using this.",
   },
 ];
 
