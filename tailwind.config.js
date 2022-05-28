@@ -1,9 +1,15 @@
 module.exports = {
   mode: "jit",
-  purge: ["./src/Components/Pages/**/*.{js,ts,jsx,tsx}", "./src/Components/**/*.{js,ts,jsx,tsx}"],
+  purge: [
+    "./src/Components/Pages/**/*.{js,ts,jsx,tsx}",
+    "./src/Components/**/*.{js,ts,jsx,tsx}",
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      dropShadow: {
+        custom: "0px 0px 30px 5px rgba(0,0,0,0.75)",
+      },
       zIndex: {
         "-10": "-10", // This has been added for smooth working of sticky header in deals details page
       },
@@ -38,9 +44,6 @@ module.exports = {
         "3/4": "75%",
         full: "100%",
         inp: "512px",
-      },
-      boxShadow: {
-        homeCustom: "0 0px 22px 4px rgba(218, 0, 33, 0.1)",
       },
     },
   },
