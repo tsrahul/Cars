@@ -4,6 +4,7 @@ import { courseData } from "./cartData";
 import Pagination from "../Global/Pagination/Pagination";
 import { Button, Rate, Select } from "antd";
 import { RightOutlined, MinusCircleOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 const { Option } = Select;
 
@@ -24,6 +25,10 @@ const cartPage = ({ data = courseData }) => {
 
   const removeCartItem = (itemTag) => {
     setcartData(cartData.filter((item) => item.tag != itemTag));
+  };
+
+  const addOBJtoLocal = (item) => {
+    window.localStorage.setItem("descItem", JSON.stringify(item));
   };
 
   useEffect(() => {
@@ -64,11 +69,14 @@ const cartPage = ({ data = courseData }) => {
                   key={key}
                   className="mt-5 bg-white w-full p-3 h-20 drop-shadow-md hover:drop-shadow-xl flex items-center"
                 >
-                  <img
-                    src={item.courseIMG}
-                    alt="article"
-                    className="h-14 w-14 mr-8"
-                  />
+                  <Link to="/detailsPage">
+                    <img
+                      src={item.courseIMG}
+                      alt="article"
+                      className="h-14 w-14 mr-8 cursor-pointer"
+                      onClick={() => addOBJtoLocal(item)}
+                    />
+                  </Link>
                   <p className="custom_truncate text-base flex-1 max-w-[350px] mr-8 mb-0 max-h-12">
                     {item.name}
                   </p>
