@@ -144,3 +144,11 @@ p {
   @apply bg-neutral-500;
 }
 /* Website Scrollbar */
+
+.exp_class > .ant-radio-wrapper {
+  display: flex !important;
+}
+
+.form-large {
+  padding: 14px !important;
+}
